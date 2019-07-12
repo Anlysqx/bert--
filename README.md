@@ -1,4 +1,4 @@
-# bert
+# bert-事件主体抽取
 ### CCKS 2019 面向金融领域的事件主体抽取
 ### tensorflow 版本代码
 ### 方法是 在bert 的输出后面 接两个 dense 成 [batch_size,sentence_len,1] 然后 tf.squeeze(,axis=-1) 
